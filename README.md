@@ -1,40 +1,56 @@
-# student-management-system-java
-Student Management System – Core Java Project
+# Student Management System (Java)
 
-This is a simple Java console-based application built using Core Java and OOP principles. It allows basic management of student records effectively using ArrayList, classes, objects, constructors, and methods.
+A simple and fully functional **console-based Student Management System** built using **Core Java**.  
+This project demonstrates the use of **Object-Oriented Programming**, **ArrayList**, user input handling, and menu-driven program design.
 
-⭐ Features
+---
 
-Add Student
+## 🚀 Features
 
-View Students
+- ➕ Add new student  
+- 📋 View all students  
+- 🔍 Search student by ID  
+- ❌ Delete student by ID  
+- 🧹 Clean and simple menu interface  
+- 📌 In-memory storage using ArrayList  
 
-Delete Student
+---
 
-Search Student
+## 🛠️ Technologies Used
 
-Uses ArrayList for in-memory storage
+- **Java (Core Java)**
+- **ArrayList** for storing student records
+- **Scanner** for user input
+- **OOP concepts** such as classes & objects
 
-Clean OOP structure
+---
 
-⭐ Java Concepts Used
+## 🎯 Objectives
 
-Classes & Objects
+This project aims to demonstrate:
 
-Encapsulation
+- Use of **classes** and **nested classes**
+- Application of **constructors**
+- Use of **ArrayList** to store dynamic records
+- Implementation of **CRUD operations** (Create, Read, Update, Delete)
+- User input handling using Scanner
+- Use of loops and switch-case structures
+- Modular programming using reusable methods
 
-Collections (ArrayList)
+---
 
-Loops & Conditionals
+Sample Output
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Exit
+Enter Your Choice: 1
 
-Method Overloading
+Enter Student ID: 101
+Enter Student Name: Ramesh
+Enter Age: 20
+Enter Course: B.Tech
+Student Added Successfully!
 
-Exception Handling
-
-Constructors
-
-⭐ How to Run
-javac StudentManagement.java  
-java StudentManagement
-
-Overall, this project reflects my ability to build a functional Java application from scratch, apply object-oriented principles, and write maintainable code using Core Java.
